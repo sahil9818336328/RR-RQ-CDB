@@ -1,0 +1,4 @@
+- react router setup
+- error page setup
+- styled components
+- outlet component for rendering children routes
