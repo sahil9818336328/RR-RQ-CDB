@@ -4,5 +4,5 @@
 - outlet component for rendering children routes
 - single error page
 - loader from react router dom (for pre-fetching data)
-- drink (data fetching)
+- drinks (data fetching)
 - global loader
