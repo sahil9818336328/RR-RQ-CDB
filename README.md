@@ -2,3 +2,7 @@
 - error page setup
 - styled components
 - outlet component for rendering children routes
+- single error page
+- loader from react router dom (for pre-fetching data)
+- drink (data fetching)
+- global loader

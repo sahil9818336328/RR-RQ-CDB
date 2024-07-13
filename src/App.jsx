@@ -7,7 +7,10 @@ import {
   HomeLayout,
   Landing,
   Newsletter,
+  SinglePageError,
 } from './pages'
+
+import { loader as LandingLoader } from './pages/Landing'
 
 const router = createBrowserRouter([
   {
@@ -17,10 +20,12 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        loader: LandingLoader,
         element: <Landing />,
+        errorElement: <SinglePageError />,
       },
       {
-        path: 'cocktail',
+        path: 'cocktail/:id',
         element: <Cocktail />,
       },
       {
