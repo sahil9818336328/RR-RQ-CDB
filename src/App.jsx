@@ -11,6 +11,7 @@ import {
 } from './pages'
 
 import { loader as LandingLoader } from './pages/Landing'
+import { loader as SingleCocktailLoader } from './pages/Cocktail'
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,8 @@ const router = createBrowserRouter([
       },
       {
         path: 'cocktail/:id',
+        loader: SingleCocktailLoader,
+        errorElement: <SinglePageError />,
         element: <Cocktail />,
       },
       {

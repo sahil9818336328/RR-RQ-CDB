@@ -3,7 +3,6 @@ import Wrapper from '../assets/wrappers/CocktailList'
 import CocktailCard from '../components/CocktailCard'
 
 const CocktailList = ({ drinks }) => {
-  console.log(drinks)
   if (!drinks) {
     return (
       <h2 style={{ textAlign: 'center' }}>No matching cocktails found...</h2>
