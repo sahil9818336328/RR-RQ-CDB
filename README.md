@@ -6,3 +6,5 @@
 - loader from react router dom (for pre-fetching data)
 - drinks (data fetching)
 - global loader
+- single cocktail page
+- accessing params (id) through loader
