@@ -15,3 +15,5 @@
 - react toastify
 - search form
 - get search query using new URL passing in request.url
+- react query added
+- caching reuqusts
