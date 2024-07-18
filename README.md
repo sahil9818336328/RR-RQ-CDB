@@ -8,3 +8,8 @@
 - global loader
 - single cocktail page
 - accessing params (id) through loader
+- newsletter
+- handle form submission using actions and formData API
+- try/catch
+- useNavigation hook
+- react toastify
