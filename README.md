@@ -13,3 +13,5 @@
 - try/catch
 - useNavigation hook
 - react toastify
+- search form
+- get search query using new URL passing in request.url
